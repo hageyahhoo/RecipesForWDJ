@@ -1,0 +1,10 @@
+{
+  "run_list": [
+    "recipe[dstat]",
+    "recipe[firefox]",
+    "recipe[config]"
+  ],
+  "automatic": {
+    "ipaddress": "are"
+  }
+}
