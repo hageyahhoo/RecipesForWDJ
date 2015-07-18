@@ -6,8 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-template ".bash_profile" do
-  path  "/home/vagrant/.bash_profile"
+template "/home/vagrant/.bash_profile" do
   owner "vagrant"
   group "vagrant"
   mode  0644
