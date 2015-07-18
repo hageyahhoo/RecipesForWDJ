@@ -7,8 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 template "/home/vagrant/.bash_profile" do
-  owner "vagrant"
-  group "vagrant"
+  owner node[:user]
+  group node[:group]
   mode  0644
 end
 

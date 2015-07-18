@@ -6,5 +6,7 @@
   ],
   "automatic": {
     "ipaddress": "are"
-  }
+  },
+  "user":  "vagrant",
+  "group": "vagrant"
 }
