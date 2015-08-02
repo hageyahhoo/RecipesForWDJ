@@ -6,7 +6,6 @@ provisioner:
   name: chef_solo
 
 platforms:
-#  - name: centos-6.5
   - name: opscode-centos-6.5
 
 suites:
