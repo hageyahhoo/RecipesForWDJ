@@ -11,3 +11,10 @@ Recipes of Chef for wdj.
 	$ gem install test-kitchen
 	$ gem install kitchen-vagrant
 	$ gem install serverspec
+
+
+
+## Tips
+
+### 1) How to know the Global IP address of OS-X
+	$ curl ipcheck.ieserver.net
