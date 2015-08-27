@@ -8,19 +8,21 @@
 
 # Test for data_bag
 # * Need "id" in each json file.
-ids = data_bag('users')
+#ids = data_bag('users')
 
-ids.each do |id|
-  user = data_bag_item('users', id)
-  log user['id']
-  log user['color']
-end
+#ids.each do |id|
+#  user = data_bag_item('users', id)
+#  log user['id']
+#  log user['color']
+#end
 
 
 # Template for .bash_profile
 template "/home/vagrant/.bash_profile" do
-  owner node['user']
-  group node["group"]
+#  owner node['user']
+  owner 'vagrant'
+#  group node["group"]
+  group 'vagrant'
   mode  0644
 end
 

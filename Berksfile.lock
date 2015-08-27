@@ -1,7 +1,10 @@
 DEPENDENCIES
+  config
+    path: site-cookbooks/config
   yum-epel
 
 GRAPH
+  config (0.1.0)
   yum (3.6.3)
   yum-epel (0.6.2)
     yum (~> 3.2)
